@@ -1,6 +1,6 @@
 # Final_Project
 
-I started the semester with a project called [It Sat] (http://www.natepadgett.com/2017/02/10/it-sat/),
+I started the semester with a project called [It Sat](http://www.natepadgett.com/2017/02/10/it-sat/),
 which modified a poem call "Instead of Bad News about a Person I Love" by Jack Underwood. In it, a narrator lacking a firm grasp of reality says increasingly outlandish things, giving the reader reason to think that something may be wrong with them. I interpreted this "something wrong"  a one of three possibilities:
 
 1. The narrator was mentally unstable
@@ -23,7 +23,7 @@ I've though of two approaches to the source text:
 
 Ideally I would like the deterioration of the text to resemble Flowers for Algernon, a story about a man who achieves incredible intelligence from crippling learning disabilities, only to slip back into his original state. 
 
-[flowers-for-algernon] (http://www.unboundworlds.com/wp-content/uploads/2008/10/flowers-for-algernon.jpg)
+[flowers-for-algernon](http://www.unboundworlds.com/wp-content/uploads/2008/10/flowers-for-algernon.jpg)
 
-As for the script, I'm still working on the rules for the text transformation and how to implement it. There is a lot of [research] (http://journal.frontiersin.org/article/10.3389/fncom.2016.00060/full) into how the brain reacts to dementia, much of which uses hidden Markov Chains for analysis, but very little on how dementia affects speech. Finding this research will be a large portion of this project. 
+As for the script, I'm still working on the rules for the text transformation and how to implement it. There is a lot of [research](http://journal.frontiersin.org/article/10.3389/fncom.2016.00060/full) into how the brain reacts to dementia, much of which uses hidden Markov Chains for analysis, but very little on how dementia affects speech. Finding this research will be a large portion of this project. 
  
