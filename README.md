@@ -80,6 +80,7 @@ Sentence scrambling in this way is like my grandma's often random repetitions of
 Example output: 
 
 >Tiffany arrives on December 19th for two whole weeks! Yippee!
+
 >Nathan arrives on December 19th for two whole weeks! Yippee!
 
 This is indcative of the confluence of communicative challenges experienced by my grandmother well into her illness, when it became obvious to us that she had dementia. 
@@ -109,22 +110,22 @@ Pulling the print statement up out of the nested for loop that searches for word
 Result with Name_And_Sent_Scramble:
 
 >Merry Christmas & Happy New Year
-12/27/2016
-Dear Friends and Family,
-
-Our souls have been fed and we are thankful.
-
-He is super busy and energized.
-
-Harry started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January to start a new job.
-
-He has a few more applications to submit, but by Fall 2017, mom and dad anticipate being real empty nesters – oh my!
-
-Nancy and Nathan continue to work together, trying to stay on top of all the changes in medicine.
-
-We hope 2017 will bring good tidings for all.
-
-Frohe Weinachten!
+>12/27/2016
+>Dear Friends and Family,
+>
+>Our souls have been fed and we are thankful.
+>
+>He is super busy and energized.
+>
+>Harry started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January to start a new job.
+>
+>He has a few more applications to submit, but by Fall 2017, mom and dad anticipate being real empty nesters – oh my!
+>
+>Nancy and Nathan continue to work together, trying to stay on top of all the changes in medicine.
+>
+>We hope 2017 will bring good tidings for all.
+>
+>Frohe Weinachten!
 >with love from our family to yours
 
 Result with Minimal:
@@ -132,31 +133,31 @@ Result with Minimal:
 >Merry Christmas & Happy New Year
 >12/27/2016
 >Dear Friends and Family,
-
+>
 >We have sunshine most of the year and rain has made us see green again.
 >We have each other and we have wonderful friends.
 >We have sunshine most of the year and rain has made us see green again.
 >Our souls have been fed and we are thankful.
 >We have each other and we have wonderful friends.
 >We have each other and we have wonderful friends.
-
+>
 >He still resides in New York; working for a start up, living in Brooklyn, and is now attending graduate school.
 >He still resides in New York; working for a start up, living in Brooklyn, and is now attending graduate school.
 >Nathan will be home for three whole weeks, a long visit not enjoyed by us since UCSB.
-
+>
 >Harry started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great >start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January >to start a new job.
 >Tiffany started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a >great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in >January to start a new job.
-
+>
 >Stephan continues to juggle college and work, including a summer internship with our county DA’s office.
 >In addition, he too joined the choir started by his brother Harry.
 >In addition, he too joined the choir started by his brother Harry.
 >In addition, he too joined the choir started by his brother Nancy.
-
+>
 >They have been blessed with a great team.
 >Harry and Daniel continue to work together, trying to stay on top of all the changes in medicine.
-
+>
 >We hope 2017 will bring good tidings for all.
-
+>
 >Frohe Weinachten!
 >with love from our family to yours
 
