@@ -24,7 +24,7 @@ I needed to switch my plan, so I simplified and made it more personal. Rather th
 
 For source text, I used six files: five Christmas letters and one json file containing the the names of family members mentioned in the letters. The letters were written by my mom over the course of five years in third person, so conveniently the writer can be framed as anyone. I have changed the names of individuals and places out of respect for privacy. The source can be found in this repo under file names that include RWET_Final_Source_Letter. 
 
-*CODE*
+**CODE**
 
 To process the text, I wrote four scripts that simulate the communication challenges mentioned earlier. 
 
@@ -73,14 +73,14 @@ This is indcative of the confluence of communicative challenges experienced by m
 
 The final script, [RWET_Final_Minimal.py] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Minimal.py) simply pulls the print statement at the end of RWET_Final_Name_And_Sent_Scramble.py out of the last for loop for words an moves it up a level to the for loop above it. 
 
-*In Name_And_Sent_Scramble:*
+In Name_And_Sent_Scramble:
 
 ''' for word_lists in lists_of_words:
         for word in dic.keys():
             words = [word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in word_lists]
         print " ".join(words)'''
        
-*In Minimal:*
+In Minimal:
 
 '''  for word_lists in lists_of_words:
         for word in dic.keys():
@@ -89,7 +89,7 @@ The final script, [RWET_Final_Minimal.py] (https://github.com/NatePadgett/RWET-F
     
 Pulling the print statement up out of the nested for loop that searches for words in the dictionary to the previous loop reduces the number of lines and removes repeated sentences.
 
-*Result with Name_And_Sent_Scramble:*
+Result with Name_And_Sent_Scramble:
 
 >Merry Christmas & Happy New Year
 >12/27/2016
@@ -110,7 +110,7 @@ Pulling the print statement up out of the nested for loop that searches for word
 >Frohe Weinachten!
 >with love from our family to yours
 
-*Result with Minimal:*
+Result with Minimal:
 
 >Merry Christmas & Happy New Year
 >12/27/2016
@@ -127,8 +127,8 @@ Pulling the print statement up out of the nested for loop that searches for word
 >He still resides in New York; working for a start up, living in Brooklyn, and is now attending graduate school.
 >Nathan will be home for three whole weeks, a long visit not enjoyed by us since UCSB.
 
->Harry started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January to start a new job.
->Tiffany started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January to start a new job.
+>Harry started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great >start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January >to start a new job.
+>Tiffany started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a >great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in >January to start a new job.
 
 >Stephan continues to juggle college and work, including a summer internship with our county DA’s office.
 >In addition, he too joined the choir started by his brother Harry.
