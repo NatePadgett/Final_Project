@@ -80,7 +80,6 @@ Sentence scrambling in this way is like my grandma's often random repetitions of
 Example output: 
 
 >Tiffany arrives on December 19th for two whole weeks! Yippee!
-
 >Nathan arrives on December 19th for two whole weeks! Yippee!
 
 This is indcative of the confluence of communicative challenges experienced by my grandmother well into her illness, when it became obvious to us that she had dementia. 
@@ -110,7 +109,9 @@ Pulling the print statement up out of the nested for loop that searches for word
 Result with Name_And_Sent_Scramble:
 
 >Merry Christmas & Happy New Year
+>
 >12/27/2016
+>
 >Dear Friends and Family,
 >
 >Our souls have been fed and we are thankful.
@@ -126,12 +127,15 @@ Result with Name_And_Sent_Scramble:
 >We hope 2017 will bring good tidings for all.
 >
 >Frohe Weinachten!
+>
 >with love from our family to yours
 
 Result with Minimal:
 
 >Merry Christmas & Happy New Year
+>
 >12/27/2016
+>
 >Dear Friends and Family,
 >
 >We have sunshine most of the year and rain has made us see green again.
@@ -159,6 +163,7 @@ Result with Minimal:
 >We hope 2017 will bring good tidings for all.
 >
 >Frohe Weinachten!
+>
 >with love from our family to yours
 
 This represents the latest stage in my grandmother's illness when she started communicating less because it was increasingly difficult to do so. During this current phase she speaks in short, incomplete thoughts and often confuse time, place, and the people involved.
