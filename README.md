@@ -31,13 +31,13 @@ For source text, I used six files: five Christmas letters and one json file cont
 
 To process the text, I wrote four scripts that simulate the communication challenges mentioned earlier. I also stored all of my functions in a module [functions.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/functions.py).
 
-[RWET_Final_Name_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_Scramble.py) replaces the names of individuals mentioned in the source next with a randomly chosen name from the JSON file [RWET_Final_Names.json](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Names.json). This is accomplished through a list comprehension.
+[Name_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Name_Scramble.py) replaces the names of individuals mentioned in the source next with a randomly chosen name from the JSON file [Names.json](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Names.json). This is accomplished through a list comprehension.
  
 ```python
 words = [word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in words]
 ```
 
-I randomly choose both which names to swap in the source text and what to swap them with. In both cases, the names to swap and swap with are pulled from a dictionary dic into which RWET_Final_Names.json is parsed into. 
+I randomly choose both which names to swap in the source text and what to swap them with. In both cases, the names to swap and swap with are pulled from a dictionary dic into which Names.json is parsed into. 
 
 ```python
 dic = functions.json_converter(family_members)
@@ -61,7 +61,7 @@ Example output:
 
 (Nathan lives in NYC and turned 26. Stephan is his brother)
 
-RWET_Final_Sent_Scramble .py does as it's name suggests: it mixes up scentences in each source text. This is accomplished through a line comprehension call as part of function `sentence_swap(string,list)`.
+[Sentence_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Sentence_Scramble.py) does as it's name suggests: it mixes up scentences in each source text. This is accomplished through a line comprehension call as part of function `sentence_swap(string,list)`.
 
 ```python
 def sentences_swap(string,lists):
@@ -83,7 +83,7 @@ Sentence scrambling in this way is like my grandma's often random repetitions of
 Example output:
 >He is a great roommate so it is mutually beneficial for the entire family :) He is saving money while living at home. He is saving money while living at home. He is saving money while living at home.
 
-[RWET_Final_Name_And_Sent_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_And_Sent_Scramble.py) combines the two symptoms created in the previous two scripts. The resulting text is a confusing mix of name confusion and statement repitition. 
+[Name_And_Sentence_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Name_And_Sentence_Scramble.py) combines the two symptoms created in the previous two scripts. The resulting text is a confusing mix of name confusion and statement repitition. 
 
 Example output: 
 
@@ -93,9 +93,9 @@ Example output:
 
 This is indcative of the confluence of communicative challenges experienced by my grandmother well into her illness, when it became obvious to us that she had dementia. 
 
-The final script, [RWET_Final_Minimal.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Minimal.py) simply pulls the print statement at the end of RWET_Final_Name_And_Sent_Scramble.py out of the last for loop for words an moves it up a level to the for loop above it. 
+The final script, [Minimal.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Minimal.py) simply pulls the print statement at the end of RWET_Final_Name_And_Sent_Scramble.py out of the last for loop for words an moves it up a level to the for loop above it. 
 
-In Name_And_Sent_Scramble:
+In Name_And_Sentence_Scramble:
 
 ```python
 for word_lists in lists_of_words:
@@ -179,12 +179,12 @@ This represents the latest stage in my grandmother's illness when she started co
 
 Letters:
 
-[Letter 1](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_1.txt)
+[Letter 1](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Letter_1.txt)
 
-[Letter 2](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_2.txt)
+[Letter 2](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Letter_2.txt)
 
-[Letter 3](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_3.txt)
+[Letter 3](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Letter_3.txt)
 
-[Letter 4](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_4.txt)
+[Letter 4](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Letter_4.txt)
 
-[Letter 5](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_5.txt)
+[Letter 5](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/Letter_5.txt)
