@@ -9,8 +9,8 @@ When I started working on this project, my intention was to explore the degredat
 The papers I read for this project:
 
 [Investigating the Effects of Communication Problems on Caregiver Burden](https://academic.oup.com/psychsocgerontology/article/60/1/S48/617664/Investigating-the-Effects-of-Communication)
-[Links Among Communication, Dementia, and Caregiver Burden] (http://www.cjslpa.ca/download.php?file=2012_CJSLPA_Vol_36/No_04_264_355/Watson-Aizawa-Savundranayagam-Orange_CJSLPA.pdf)
-[Relation of linguistic communication abilities of Alzheimer's patients to stage of disease] (https://www.ncbi.nlm.nih.gov/pubmed/1377076)
+[Links Among Communication, Dementia, and Caregiver Burden](http://www.cjslpa.ca/download.php?file=2012_CJSLPA_Vol_36/No_04_264_355/Watson-Aizawa-Savundranayagam-Orange_CJSLPA.pdf)
+[Relation of linguistic communication abilities of Alzheimer's patients to stage of disease](https://www.ncbi.nlm.nih.gov/pubmed/1377076)
 [Symptoms of communication breakdown in dementia: Carers' perceptions](https://www.researchgate.net/publication/15552549_Symptoms_of_communication_breakdown_in_dementia_Carers'_perceptions)
 
 *PIVOT*
