@@ -16,7 +16,7 @@ The papers I read for this project:
 
 [Symptoms of communication breakdown in dementia: Carers' perceptions](https://www.researchgate.net/publication/15552549_Symptoms_of_communication_breakdown_in_dementia_Carers'_perceptions)
 
-*PIVOT*
+**PIVOT**
 
 I needed to switch my plan, so I simplified and made it more personal. Rather than base my procedure on studies, I focused the  work on my own experience with my grandmother and the specific degenerative communication traits she exhibited over the course of her slip into vascular dementia. The traits were:
 
