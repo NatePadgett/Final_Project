@@ -29,7 +29,7 @@ For source text, I used six files: five Christmas letters and one json file cont
 
 **CODE**
 
-To process the text, I wrote four scripts that simulate the communication challenges mentioned earlier. 
+To process the text, I wrote four scripts that simulate the communication challenges mentioned earlier. I also stored all of my functions in a module [functions.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/functions.py).
 
 [RWET_Final_Name_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_Scramble.py) replaces the names of individuals mentioned in the source next with a randomly chosen name from the JSON file [RWET_Final_Names.json](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Names.json). This is accomplished through a list comprehension.
  
