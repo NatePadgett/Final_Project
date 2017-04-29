@@ -179,8 +179,8 @@ This represents the latest stage in my grandmother's illness when she started co
 
 Letters:
 
-[Letter 1] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_1.txt)
-[Letter 2] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_2.txt)
-[Letter 3] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_3.txt)
-[Letter 4] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_4.txt)
-[Letter 5] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_5.txt)
+[Letter 1](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_1.txt)
+[Letter 2](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_2.txt)
+[Letter 3](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_3.txt)
+[Letter 4](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_4.txt)
+[Letter 5](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Letter_5.txt)
