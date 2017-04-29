@@ -9,8 +9,11 @@ When I started working on this project, my intention was to explore the degredat
 The papers I read for this project:
 
 [Investigating the Effects of Communication Problems on Caregiver Burden](https://academic.oup.com/psychsocgerontology/article/60/1/S48/617664/Investigating-the-Effects-of-Communication)
+
 [Links Among Communication, Dementia, and Caregiver Burden](http://www.cjslpa.ca/download.php?file=2012_CJSLPA_Vol_36/No_04_264_355/Watson-Aizawa-Savundranayagam-Orange_CJSLPA.pdf)
+
 [Relation of linguistic communication abilities of Alzheimer's patients to stage of disease](https://www.ncbi.nlm.nih.gov/pubmed/1377076)
+
 [Symptoms of communication breakdown in dementia: Carers' perceptions](https://www.researchgate.net/publication/15552549_Symptoms_of_communication_breakdown_in_dementia_Carers'_perceptions)
 
 *PIVOT*
@@ -28,22 +31,30 @@ For source text, I used six files: five Christmas letters and one json file cont
 
 To process the text, I wrote four scripts that simulate the communication challenges mentioned earlier. 
 
-[RWET_Final_Name_Scramble.py] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_Scramble.py) replaces the names of individuals mentioned in the source next with a randomly chosen name from the JSON file [RWET_Final_Names.json] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Names.json). This is accomplished through a list comprehension.
+[RWET_Final_Name_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_Scramble.py) replaces the names of individuals mentioned in the source next with a randomly chosen name from the JSON file
+
+[RWET_Final_Names.json](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Names.json). This is accomplished through a list comprehension.
  
-'''words = [word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in words]'''
+'''python
+words = [word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in words]
+'''
 
 I randomly choose both which names to swap in the source text and what to swap them with. In both cases, the names to swap and swap with are pulled from a dictionary dic into which RWET_Final_Names.json is parsed into. 
 
-'''dic = functions.json_converter(family_members)'''
+'''
+dic = functions.json_converter(family_members)
+'''
 
-'''{
+'''json
+{
 "Nathan": "son",
 "Harry":"son",
 "Stephan":"son",
 "Tiffany": "girlfriend of Nathan",
 "Daniel":"husband",
 "Nancy":"self"
-}'''
+}
+'''
 
 Because I'm working with a short dictionary of names, swapping names in this way mostly yielded subtle changes, i.e.: only one or two replacements per per run of the script. For the purposes of this project that is perfect. It gives an attentive reader the sense that something is off about the narrator and that they are confusing the characters in their own story. The few moments when no change is made by the program are like the moments of clarity amid the creeping haze of dementia experience by my grandmother. 
 
