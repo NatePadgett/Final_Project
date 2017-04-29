@@ -31,21 +31,19 @@ For source text, I used six files: five Christmas letters and one json file cont
 
 To process the text, I wrote four scripts that simulate the communication challenges mentioned earlier. 
 
-[RWET_Final_Name_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_Scramble.py) replaces the names of individuals mentioned in the source next with a randomly chosen name from the JSON file
-
-[RWET_Final_Names.json](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Names.json). This is accomplished through a list comprehension.
+[RWET_Final_Name_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_Scramble.py) replaces the names of individuals mentioned in the source next with a randomly chosen name from the JSON file [RWET_Final_Names.json](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Names.json). This is accomplished through a list comprehension.
  
-'''python
+```python
 words = [word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in words]
-'''
+```
 
 I randomly choose both which names to swap in the source text and what to swap them with. In both cases, the names to swap and swap with are pulled from a dictionary dic into which RWET_Final_Names.json is parsed into. 
 
-'''
+```python
 dic = functions.json_converter(family_members)
-'''
+```
 
-'''json
+```json
 {
 "Nathan": "son",
 "Harry":"son",
@@ -54,26 +52,28 @@ dic = functions.json_converter(family_members)
 "Daniel":"husband",
 "Nancy":"self"
 }
-'''
+```
 
 Because I'm working with a short dictionary of names, swapping names in this way mostly yielded subtle changes, i.e.: only one or two replacements per per run of the script. For the purposes of this project that is perfect. It gives an attentive reader the sense that something is off about the narrator and that they are confusing the characters in their own story. The few moments when no change is made by the program are like the moments of clarity amid the creeping haze of dementia experience by my grandmother. 
 
-RWET_Final_Sent_Scramble .py does as it's name suggests: it mixes up scentences in each source text. This is accomplished through a line comprehension call as part of function ________.
+RWET_Final_Sent_Scramble .py does as it's name suggests: it mixes up scentences in each source text. This is accomplished through a line comprehension call as part of function `sentence_swap(string,list)`.
 
-'''def sentences_swap(string,lists):
+```python
+def sentences_swap(string,lists):
     lists = [string.replace(string, random.choice(lists)) for string in lists]
-    return lists'''
+    return lists```
 
 I also wrote a function for parsing the text into sentences to keep the code brief and elegant. : 
 
-'''def sentence_builder(lines):
+```python
+def sentence_builder(lines):
     lines = lines.strip()
     sentences = lines.split("  ")
-    return sentences'''
+    return sentences```
 
 Sentence scrambling in this way is like my grandma's often random repetitions of phrases and stories as her disease worsened. 
 
-[RWET_Final_Name_And_Sent_Scramble.py] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_And_Sent_Scramble.py) combines the two symptoms created in the previous two scripts. The resulting text is a confusing mix of name confusion and statement repitition. 
+[RWET_Final_Name_And_Sent_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_And_Sent_Scramble.py) combines the two symptoms created in the previous two scripts. The resulting text is a confusing mix of name confusion and statement repitition. 
 
 Example output: 
 
@@ -82,43 +82,45 @@ Example output:
 
 This is indcative of the confluence of communicative challenges experienced by my grandmother well into her illness, when it became obvious to us that she had dementia. 
 
-The final script, [RWET_Final_Minimal.py] (https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Minimal.py) simply pulls the print statement at the end of RWET_Final_Name_And_Sent_Scramble.py out of the last for loop for words an moves it up a level to the for loop above it. 
+The final script, [RWET_Final_Minimal.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Minimal.py) simply pulls the print statement at the end of RWET_Final_Name_And_Sent_Scramble.py out of the last for loop for words an moves it up a level to the for loop above it. 
 
 In Name_And_Sent_Scramble:
 
-''' for word_lists in lists_of_words:
+```python
+for word_lists in lists_of_words:
         for word in dic.keys():
             words = [word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in word_lists]
-        print " ".join(words)'''
+        print " ".join(words)```
        
 In Minimal:
 
-'''  for word_lists in lists_of_words:
+```python
+for word_lists in lists_of_words:
         for word in dic.keys():
             words =[word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in word_lists]
-    print " ".join(words)'''
+    print " ".join(words)```
     
 Pulling the print statement up out of the nested for loop that searches for words in the dictionary to the previous loop reduces the number of lines and removes repeated sentences.
 
 Result with Name_And_Sent_Scramble:
 
 >Merry Christmas & Happy New Year
->12/27/2016
->Dear Friends and Family,
+12/27/2016
+Dear Friends and Family,
 
->Our souls have been fed and we are thankful.
+Our souls have been fed and we are thankful.
 
->He is super busy and energized.
+He is super busy and energized.
 
->Harry started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January to start a new job.
+Harry started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January to start a new job.
 
->He has a few more applications to submit, but by Fall 2017, mom and dad anticipate being real empty nesters – oh my!
+He has a few more applications to submit, but by Fall 2017, mom and dad anticipate being real empty nesters – oh my!
 
->Nancy and Nathan continue to work together, trying to stay on top of all the changes in medicine.
+Nancy and Nathan continue to work together, trying to stay on top of all the changes in medicine.
 
->We hope 2017 will bring good tidings for all.
+We hope 2017 will bring good tidings for all.
 
->Frohe Weinachten!
+Frohe Weinachten!
 >with love from our family to yours
 
 Result with Minimal:
