@@ -1,4 +1,4 @@
-*INITIAL GOAL*
+**INITIAL GOAL**
 
 When I started working on this project, my intention was to explore the degredation of communication in people with dementia through procedurally generated text. The plan was to find as much research as possible on this topic and attempt to replicate failure of different language centers of the brain in a single patient through a Python script or series if scripts. Through my research (and corroborated by comments throughout what I found), I concluded three things:
 
