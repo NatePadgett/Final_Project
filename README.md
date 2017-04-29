@@ -61,7 +61,8 @@ RWET_Final_Sent_Scramble .py does as it's name suggests: it mixes up scentences 
 ```python
 def sentences_swap(string,lists):
     lists = [string.replace(string, random.choice(lists)) for string in lists]
-    return lists```
+    return lists
+```
 
 I also wrote a function for parsing the text into sentences to keep the code brief and elegant. : 
 
@@ -69,7 +70,8 @@ I also wrote a function for parsing the text into sentences to keep the code bri
 def sentence_builder(lines):
     lines = lines.strip()
     sentences = lines.split("  ")
-    return sentences```
+    return sentences
+```
 
 Sentence scrambling in this way is like my grandma's often random repetitions of phrases and stories as her disease worsened. 
 
@@ -90,7 +92,8 @@ In Name_And_Sent_Scramble:
 for word_lists in lists_of_words:
         for word in dic.keys():
             words = [word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in word_lists]
-        print " ".join(words)```
+        print " ".join(words)
+```
        
 In Minimal:
 
@@ -98,7 +101,8 @@ In Minimal:
 for word_lists in lists_of_words:
         for word in dic.keys():
             words =[word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in word_lists]
-    print " ".join(words)```
+    print " ".join(words)
+```
     
 Pulling the print statement up out of the nested for loop that searches for words in the dictionary to the previous loop reduces the number of lines and removes repeated sentences.
 
