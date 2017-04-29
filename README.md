@@ -56,6 +56,11 @@ dic = functions.json_converter(family_members)
 
 Because I'm working with a short dictionary of names, swapping names in this way mostly yielded subtle changes, i.e.: only one or two replacements per per run of the script. For the purposes of this project that is perfect. It gives an attentive reader the sense that something is off about the narrator and that they are confusing the characters in their own story. The few moments when no change is made by the program are like the moments of clarity amid the creeping haze of dementia experience by my grandmother. 
 
+Example output:
+>Stephan (turning 26 today) is still in NYC and living in Brooklyn, though he moved in September very close to Prospect Park and our favorite: Brooklyn Botanical Garden. The company he works for is growing faster than ever affording Nathan many opportunities to develop management skills, third party experience, etc. Salesforce invited him to speak at Dreamforce, so we spent the week before Thanksgiving together. Thankfully he and his wonderful girlfriend, Nancy, will be home for Christmas week.
+
+(Nathan lives in NYC and turned 26. Stephan is his brother)
+
 RWET_Final_Sent_Scramble .py does as it's name suggests: it mixes up scentences in each source text. This is accomplished through a line comprehension call as part of function `sentence_swap(string,list)`.
 
 ```python
@@ -73,13 +78,17 @@ def sentence_builder(lines):
     return sentences
 ```
 
-Sentence scrambling in this way is like my grandma's often random repetitions of phrases and stories as her disease worsened. 
+Sentence scrambling in this way is like my grandma's often random repetitions of phrases and stories as her disease worsened.
+
+Example output:
+>He is a great roommate so it is mutually beneficial for the entire family :) He is saving money while living at home. He is saving money while living at home. He is saving money while living at home.
 
 [RWET_Final_Name_And_Sent_Scramble.py](https://github.com/NatePadgett/RWET-Final-Slipping/blob/master/RWET_Final_Name_And_Sent_Scramble.py) combines the two symptoms created in the previous two scripts. The resulting text is a confusing mix of name confusion and statement repitition. 
 
 Example output: 
 
 >Tiffany arrives on December 19th for two whole weeks! Yippee!
+>
 >Nathan arrives on December 19th for two whole weeks! Yippee!
 
 This is indcative of the confluence of communicative challenges experienced by my grandmother well into her illness, when it became obvious to us that she had dementia. 
