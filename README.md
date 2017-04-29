@@ -25,7 +25,7 @@ I needed to switch my plan, so I simplified and made it more personal. Rather th
 3. Confusing and reliving events
 4. Decreased communication/generalization
 
-For source text, I used six files: five Christmas letters and one json file containing the the names of family members mentioned in the letters. The letters were written by my mom over the course of five years in third person, so conveniently the writer can be framed as anyone. I have changed the names of individuals and places out of respect for privacy. The source can be found in this repo under file names that include RWET_Final_Source_Letter. 
+For source text, I used six files: five Christmas letters and one json file containing the the names of family members mentioned in the letters. The letters were written by my mom over the course of five years in third person, so conveniently the writer can be framed as anyone. I have changed the names of individuals and places out of respect for privacy. The source can be found in this repo under file names that include "Source_Letter". 
 
 **CODE**
 
