@@ -174,7 +174,7 @@ Result with Minimal:
 >
 >with love from our family to yours
 
-This represents the latest stage in my grandmother's illness when she started communicating less because it was increasingly difficult to do so. During this current phase she speaks in short, incomplete thoughts and often confuse time, place, and the people involved.
+This represents the latest stage in my grandmother's illness, when she started communicating less because it was increasingly difficult to do so. During this current phase she speaks in short, incomplete thoughts and often confuse time, place, and the people involved.
 
 Letters:
 
