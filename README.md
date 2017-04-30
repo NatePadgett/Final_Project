@@ -1,10 +1,9 @@
 **INITIAL GOAL**
 
-When I started working on this project, my intention was to explore the degredation of communication in people with dementia through procedurally generated text. The plan was to find as much research as possible on this topic and attempt to replicate failure of different language centers of the brain in a single patient through a Python script or series if scripts. Through my research (and corroborated by comments throughout what I found), I concluded three things:
+When I started working on this project, my intention was to explore the degredation of communication in people with dementia through procedurally generated text. The plan was to find as much research as possible on this topic and attempt to replicate failure of different language centers of the brain in a single patient through a Python script or series if scripts. Through my research (and corroborated by comments throughout what I found), I concluded two things:
 
-1. This is not a lot of research on this topic.
-2. Degeneration occurs primarily in regards to content.
-3. The research that does exist focuses on care taker communication with patients, rather than the communication faculties of the patients.
+1. Degeneration occurs primarily in regards to content.
+2. The research that does exist focuses on care taker communication with patients, rather than the communication faculties of the patients.
 
 The papers I read for this project:
 
@@ -18,7 +17,7 @@ The papers I read for this project:
 
 **PIVOT**
 
-I needed to switch my plan, so I simplified and made it more personal. Rather than base my procedure on studies, I focused the  work on my own experience with my grandmother and the specific degenerative communication traits she exhibited over the course of her slip into vascular dementia. The traits were:
+I needed to switch my plan, so I simplified and made it more personal. Rather than base my procedure on studies, I focused the  work on my own experience with my grandmother and the specific degenerative traits she exhibited over the course of her slip into vascular dementia. The traits were:
 
 1. Confusing people
 2. Repetition of phrases
