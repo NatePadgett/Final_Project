@@ -77,7 +77,7 @@ def sentence_builder(lines):
     return sentences
 ```
 
-Sentence scrambling in this way is like my grandma's often random repetitions of phrases and stories as her disease worsened.
+Sentence scrambling in this way is like my grandmother's often random repetitions of phrases and stories as her disease worsened.
 
 Example output:
 >He is a great roommate so it is mutually beneficial for the entire family :) He is saving money while living at home. He is saving money while living at home. He is saving money while living at home.
