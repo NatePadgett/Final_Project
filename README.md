@@ -122,30 +122,6 @@ Result with Name_And_Sent_Scramble:
 >
 >Dear Friends and Family,
 >
->Our souls have been fed and we are thankful.
->
->He is super busy and energized.
->
->Harry started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January to start a new job.
->
->He has a few more applications to submit, but by Fall 2017, mom and dad anticipate being real empty nesters – oh my!
->
->Nancy and Nathan continue to work together, trying to stay on top of all the changes in medicine.
->
->We hope 2017 will bring good tidings for all.
->
->Frohe Weinachten!
->
->with love from our family to yours
-
-Result with Minimal:
-
->Merry Christmas & Happy New Year
->
->12/27/2016
->
->Dear Friends and Family,
->
 >We have sunshine most of the year and rain has made us see green again.
 >We have each other and we have wonderful friends.
 >We have sunshine most of the year and rain has made us see green again.
@@ -167,6 +143,30 @@ Result with Minimal:
 >
 >They have been blessed with a great team.
 >Harry and Daniel continue to work together, trying to stay on top of all the changes in medicine.
+>
+>We hope 2017 will bring good tidings for all.
+>
+>Frohe Weinachten!
+>
+>with love from our family to yours
+
+Result with Minimal:
+
+>Merry Christmas & Happy New Year
+>
+>12/27/2016
+>
+>Dear Friends and Family,
+>
+>Our souls have been fed and we are thankful.
+>
+>He is super busy and energized.
+>
+>Harry started a new choir in January. It is a joint venture with his high school choir director. The choir is off to a great start with two concert seasons booked already. Harry’s time with the choir will be short as he will move to Texas in January to start a new job.
+>
+>He has a few more applications to submit, but by Fall 2017, mom and dad anticipate being real empty nesters – oh my!
+>
+>Nancy and Nathan continue to work together, trying to stay on top of all the changes in medicine.
 >
 >We hope 2017 will bring good tidings for all.
 >
