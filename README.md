@@ -36,7 +36,7 @@ To process the text, I wrote four scripts that simulate the communication challe
 words = [word.replace(random.choice(dic.keys()), random.choice(dic.keys())) for word in words]
 ```
 
-I randomly choose both which names to swap in the source text and what to swap them with. In both cases, the names to swap and swap with are pulled from a dictionary dic into which Names.json is parsed into. 
+I randomly choose both which names to swap in the source text and what to swap them with. In both cases, the names to swap and swap with are pulled from a dictionary `dic` into which Names.json is parsed into. 
 
 ```python
 dic = functions.json_converter(family_members)
